@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="hero.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohan | Portfolio</title>
+    <!-- Fonts -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li><a class="header__link" href="#featured">Projects</a></li>
+          <li><a class="header__link" href="#contact">Contact</a></li>
+          <li class="header__line"></li>
+          <li>
+            <button id="theme-toggle" class="header__sun">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a class="header__resume btn" href="">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <img class="hero__img" src="/hero.png" alt="Profile Picture" />
+        <h2 class="hero__subtitle">Hi, I'm Rohan! 🐳</h2>
+        <h1 class="hero__title">Just Another <br />Computer Science Kid</h1>
+        <p class="hero__description">
+          A passionate programmer delving into
+          <strong>Web Development</strong> and <strong>Data Science</strong>.
+        </p>
+      </section>
+
+      <section id="about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__description">
+            Hi there! I am Rohan Chaudhary and I am currently a Sophomore at the
+            University of Houston <br />
+            My Academic Journey has led me to pursue a double major in B.S.
+            Computer Science and Mathematics
+            <br />I have always been a quick to learn and adapt. In fact, I
+            switched over from a Medical track to Computer Science just a month
+            before my 11th grade finals and still outdid my peers!
+          </p>
+          <p class="about__description">
+            In my free time I love to cook, enjoy nature while playing Pokemon
+            Go, and play Valorant.
+          </p>
+          <p class="about__description">
+            I am currently seeking internships too, so I hope I can leave an
+            impression upon you! 👋
+          </p>
+          <hr class="about__hr" />
+          <h3 class="about__subtitle">Skills</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list">HTML/CSS</li>
+              <li class="about__list">Javascript/Typescript</li>
+              <li class="about__list">ReactJS</li>
+              <li class="about__list">C++</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">Excel</li>
+              <li class="about__list">SQL</li>
+              <li class="about__list">Python</li>
+              <li class="about__list">Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="featured" class="work container section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__description">Here is a showcase of my projects!</p>
+        <div class="work__container">
+          <!-- Project 1 -->
+          <h3 class="work__project-title">Case Quest</h3>
+          <div class="work__img-wrapper work__image1">
+            <img src="/unilink.png" alt="" />
+          </div>
+          <div class="work__project work__content1">
+            <h3 class="work__project-subtitle">Case Quest</h3>
+            <p class="work__project-description1">
+              Case Quest was a hackthon held by CougarCS and MISSO Organizations
+              at the University of Houston.
+            </p>
+            <p class="work__project-description2">
+              The goal of the hackathon was to work in a team of Computer
+              Science and Business Professionals to develop an online
+              marketplace for students. To achieve this we used figma to create
+              the working prototype, system design and userflow.
+            </p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+          <!-- Project 2 -->
+          <div class="work__img-wrapper work__image2">
+            <img src="/FinancialTracker.png" alt="" />
+          </div>
+          <div class="work__project work__content2">
+            <h3 class="work__project-subtitle">Wealth Wise</h3>
+            <p class="work__project-description1">
+              Wealth Wise was a semester based project with a team of 15
+              members.
+            </p>
+            <p class="work__project-description2">
+              Wealth Wise is a comprehensive financial tracker app built on the
+              MERN stack. Monitor your wealth, set budgets, and make wise money
+              decisions with ease.
+            </p>
+
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+          <!-- Project 3 -->
+          <div class="work__img-wrapper work__image3">
+            <img src="/Pokedex.png" alt="" />
+          </div>
+          <div class="work__project work__content3">
+            <h3 class="work__project-subtitle">Pokedex</h3>
+            <p class="work__project-description1">
+              Pokedex is a catalogue of all the pokémon featured in the Pokémon
+              video game, anime and manga series.
+            </p>
+            <p class="work__project-description2">
+              This Pokedex was a solo-project created using React and
+              Typescript. I learnt the basics of React and Typescript through
+              this project.
+            </p>
+            <a
+              class="btn work__project-btn"
+              href="https://rohanpokedex.netlify.app/"
+              target="”_blank”"
+              >Website</a
+            >
+          </div>
+          <!-- Project 4 -->
+          <div class="work__img-wrapper work__image4">
+            <img src="/covid19.png" alt="" />
+          </div>
+          <div class="work__project work__content4">
+            <h3 class="work__project-subtitle">COVID-19 Analysis</h3>
+            <p class="work__project-description1">
+              Performed analysis of Covid-19 data set of the United States.
+            </p>
+            <p class="work__project-description2">
+              This group project was part of the Data Science 1 Curriculum.
+              Performed exploratory data analysis., regression, classification,
+              and outlier detection.
+            </p>
+            <a
+              class="btn work__project-btn"
+              href="https://github.com/BagelSamurai/Covid-19-Group-Project"
+              >Website</a
+            >
+          </div>
+          <!-- Project 5 -->
+          <div class="work__img-wrapper work__image5">
+            <img src="/notekeeper.png" alt="" />
+          </div>
+          <h3 class="work__project-title">Note Keeper</h3>
+
+          <div class="work__project work__content5">
+            <h3 class="work__project-subtitle">Note Keeper</h3>
+            <p class="work__project-description1">
+              This Note Taking app walked me through the fundamentals of CRUD.
+            </p>
+            <p class="work__project-description2">
+              Mollit ipsum mollit magna occaecat eiusmod sint fugiat est non
+              adipisicing esse fugiat deserunt minim. Enim occaecat velit eu non
+              amet nostrud officia duis.
+            </p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+          <!-- Project 6 -->
+          <div class="work__img-wrapper work__image6">
+            <img src="/sushi.png" alt="" />
+          </div>
+          <div class="work__project work__content6">
+            <h3 class="work__project-subtitle">Sushiman</h3>
+            <p class="work__project-description1">
+              Sushiman is a responsive sushi ordering website!
+            </p>
+            <p class="work__project-description2">
+              Elit est amet quis incididunt officia velit eiusmod do amet. Sint
+              non qui nulla sit ex cillum non pariatur velit proident ut aliqua
+              fugiat incididunt id minim.
+            </p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+          <!-- Project 7 -->
+          <div class="work__img-wrapper work__image7">
+            <img src="/Portfolio.png" alt="" />
+          </div>
+          <div class="work__project work__content7">
+            <h3 class="work__project-subtitle">Portfolio</h3>
+            <p class="work__project-description1">
+              Last but not the least, my responsive portfolio website!
+            </p>
+
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get in contact</h2>
+        <div class="contact__link">
+          <a href="mailto:rohanc1021@gmail.com" target="_blank"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              width="24"
+              height="24"
+            >
+              <path
+                d="M1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25v-8.5C0 2.784.784 2 1.75 2ZM1.5 12.251c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V5.809L8.38 9.397a.75.75 0 0 1-.76 0L1.5 5.809v6.442Zm13-8.181v-.32a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25v.32L8 7.88Z"
+              ></path>
+            </svg>
+          </a>
+          <a href="https://github.com/BagelSamurai" target="_blank"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              width="24"
+              height="24"
+            >
+              <path
+                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+              ></path></svg
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/rohan-chaudhary-2305a624a/"
+            target="_blank"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="24"
+              height="24"
+              viewBox="0 0 50 50"
+            >
+              <path
+                d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"
+              ></path></svg
+          ></a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <h3 class="footer__title">~Rohan Chaudhary~</h3>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
