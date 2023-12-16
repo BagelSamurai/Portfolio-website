@@ -12,6 +12,12 @@
   padding: 0;
   gap: 1em;
 }
+.header__sun {
+  display: block;
+  color: var(--clr-400);
+  width: var(--size-base);
+  height: var(--size-base);
+}
 
 /* xs */
 /* @media (min-width: 475px) {} */
@@ -45,12 +51,7 @@
     border: 1px solid var(--clr-400);
     padding-top: 1.5em;
   }
-  .header__sun {
-    display: block;
-    color: var(--clr-400);
-    width: var(--size-base);
-    height: var(--size-base);
-  }
+
   .header__resume {
     font-size: var(--size-xs);
   }
