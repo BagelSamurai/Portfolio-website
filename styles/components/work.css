@@ -11,12 +11,12 @@
   max-width: 60ch;
   font-size: var(--size-sm);
   color: var(--clr-400);
-  margin: 1rem auto;
+  margin: 1.5rem auto;
 }
 
 .work__project-title {
   font-size: var(--size-base);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .work__project:not(:last-child) {
@@ -26,17 +26,18 @@
 .work__project-description1 {
   font-size: var(--size-sm);
   color: var(--clr-800);
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 .work__project-description2 {
   font-size: var(--size-sm);
   color: var(--clr-800);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .work__project-btn {
   font-size: var(--size-sm);
+  margin-bottom: 1rem;
 }
 
 .work__project-subtitle {
@@ -51,22 +52,22 @@
 
   .work__description {
     font-size: var(--size-base);
-    margin: 1.5rem auto;
+    margin: 2rem auto;
   }
 
   .work__project-title {
     font-size: var(--size-lg);
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .work__project-description1 {
     font-size: var(--size-base);
-    margin: 1.5rem 0;
+    margin: 2rem 0;
   }
 
   .work__project-description2 {
     font-size: var(--size-base);
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .work__project-btn {
