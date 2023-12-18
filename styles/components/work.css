@@ -20,7 +20,7 @@
 }
 
 .work__project:not(:last-child) {
-  margin-bottom: 5rem;
+  margin: 2rem;
 }
 
 .work__project-description1 {
@@ -32,12 +32,12 @@
 .work__project-description2 {
   font-size: var(--size-sm);
   color: var(--clr-800);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1em;
 }
 
 .work__project-btn {
   font-size: var(--size-sm);
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .work__project-subtitle {
@@ -68,7 +68,6 @@
 
   .work__project-description2 {
     font-size: var(--size-base);
-    margin-bottom: 2rem;
   }
 
   .work__project-btn {
@@ -77,6 +76,8 @@
 }
 .work__img-wrapper img {
   border-radius: 6px;
+
+  margin: 5px;
 }
 
 /* sm */
@@ -91,7 +92,8 @@
       "content4 image4"
       "image5 content5"
       "content6 image6"
-      "image7 content7";
+      "image7 content7"
+      "content8 image8";
     place-items: center;
   }
 
@@ -121,6 +123,9 @@
   .work__image7 {
     grid-area: image7;
   }
+  .work__image8 {
+    grid-area: image8;
+  }
 
   .work__content1 {
     grid-area: content1;
@@ -147,6 +152,9 @@
   }
   .work__content7 {
     grid-area: content7;
+  }
+  .work__content8 {
+    grid-area: content8;
   }
 
   .work__project {
