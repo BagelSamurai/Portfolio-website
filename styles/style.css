@@ -2,13 +2,11 @@
 
 :root {
   /* Colors */
-  --clr-400: #243f42;
-  --clr-background: #eeebe2;
-  --clr-800: #1c1b1d;
-  --clr-btn: #0d1f2d;
-  --clr-secondary: #df1552;
-  /* Secondary rgb(249, 115, 22) */
-
+  --clr-800: #cccecb;
+  --clr-background: #11141d;
+  --clr-400: #d7d8d5;
+  --clr-btn: #f2e0d2;
+  --clr-secondary: #c4537c;
   /* sizes */
   --size-xxs: 0.5rem;
   --size-xs: 0.75rem;
@@ -32,6 +30,7 @@
   margin: 0;
   line-height: calc(1em + 0.5rem);
 }
+
 .light-mode {
   --clr-400: #243f42;
   --clr-background: #eeebe2;
@@ -39,13 +38,7 @@
   --clr-btn: #0d1f2d;
   --clr-secondary: #df1552;
 }
-.dark-mode {
-  --clr-800: #cccecb;
-  --clr-background: #11141d;
-  --clr-400: #d7d8d5;
-  --clr-btn: #f2e0d2;
-  --clr-secondary: #c4537c;
-}
+
 html {
   scroll-behavior: smooth;
 }
