@@ -53,17 +53,17 @@
 
   .work__description {
     font-size: var(--size-base);
-    margin: 2rem auto;
+    margin: 1.5rem auto;
   }
 
   .work__project-title {
     font-size: var(--size-lg);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .work__project-description1 {
     font-size: var(--size-base);
-    margin: 2rem 0;
+    margin: 1.5rem 0;
   }
 
   .work__project-description2 {
