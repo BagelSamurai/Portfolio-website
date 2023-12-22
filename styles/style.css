@@ -2,7 +2,11 @@
 
 :root {
   /* Colors */
-
+  --clr-400: #243f42;
+  --clr-background: #eeebe2;
+  --clr-800: #1c1b1d;
+  --clr-btn: #0d1f2d;
+  --clr-secondary: #df1552;
   /* Secondary rgb(249, 115, 22) */
 
   /* sizes */
